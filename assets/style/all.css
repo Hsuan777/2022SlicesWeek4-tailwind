@@ -665,17 +665,11 @@ select {
 .right-0 {
   right: 0px;
 }
-.left-6 {
-  left: 1.5rem;
+.left-4 {
+  left: 1rem;
 }
 .bottom-3 {
   bottom: 0.75rem;
-}
-.left-5 {
-  left: 1.25rem;
-}
-.left-4 {
-  left: 1rem;
 }
 .mx-auto {
   margin-left: auto;
@@ -779,11 +773,11 @@ select {
 .w-full {
   width: 100%;
 }
-.w-1\/2 {
-  width: 50%;
-}
 .w-1\/4 {
   width: 25%;
+}
+.w-1\/2 {
+  width: 50%;
 }
 .cursor-pointer {
   cursor: pointer;
@@ -926,10 +920,6 @@ select {
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
 }
-.py-20 {
-  padding-top: 5rem;
-  padding-bottom: 5rem;
-}
 .py-4 {
   padding-top: 1rem;
   padding-bottom: 1rem;
@@ -1032,34 +1022,28 @@ select {
   -webkit-box-orient: vertical;
   -webkit-line-clamp: 5;
 }
-
 .hover\:bg-secondary:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(251 242 242 / var(--tw-bg-opacity));
 }
-
 .hover\:bg-primary-dark:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(101 3 0 / var(--tw-bg-opacity));
 }
-
 .hover\:text-primary-dark:hover {
   --tw-text-opacity: 1;
   color: rgb(101 3 0 / var(--tw-text-opacity));
 }
-
 .hover\:underline:hover {
   -webkit-text-decoration-line: underline;
           text-decoration-line: underline;
 }
-
 @media (min-width: 640px) {
 
   .sm\:mr-6 {
     margin-right: 1.5rem;
   }
 }
-
 @media (min-width: 768px) {
 
   .md\:mb-6 {
@@ -1144,12 +1128,12 @@ select {
     height: 40px;
   }
 
-  .md\:w-1\/2 {
-    width: 50%;
-  }
-
   .md\:w-3\/4 {
     width: 75%;
+  }
+
+  .md\:w-1\/2 {
+    width: 50%;
   }
 
   .md\:grid-cols-2 {
@@ -1214,7 +1198,6 @@ select {
     line-height: 1.5;
   }
 }
-
 @media (min-width: 1024px) {
 
   .lg\:mb-4 {
@@ -1283,7 +1266,6 @@ select {
     -webkit-line-clamp: unset;
   }
 }
-
 @media (min-width: 1280px) {
 
   .xl\:mb-0 {
